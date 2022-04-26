@@ -1,0 +1,47 @@
+.header {
+    margin: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        width: 53.27px;
+        height: 22.66px;
+    }
+
+    &__contacts {
+        text-decoration: none;
+        cursor: pointer;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+
+        color: #737373;
+
+        margin-right: 60px;
+    }
+
+    &__login {
+        color: #FF685B;
+        padding: 8px 60px;
+        cursor: pointer;
+
+        background: transparent;
+        border: 2px solid $Orange;
+        box-sizing: border-box;
+        border-radius: 7px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        &:hover {
+            background-color: #FF685B;
+            color: white;
+        }
+    }
+}
