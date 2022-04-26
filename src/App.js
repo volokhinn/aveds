@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.scss';
+import './style/App.scss';
 import Header from './components/Header/Header';
 import Content from './components/Content/Content';
 

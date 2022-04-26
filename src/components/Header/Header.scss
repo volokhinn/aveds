@@ -1,4 +1,9 @@
+.containerHead {
+    border-bottom: 1px solid #000;
+}
+
 .header {
+    align-items: center;
     margin: 20px 70px;
     display: flex;
     justify-content: space-between;
@@ -22,6 +27,14 @@
         color: #737373;
 
         margin-right: 60px;
+
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            transition: 0.2s ease-in-out;
+            text-decoration: none;
+            color: #afafaf;
+        }
     }
 
     &__login {
@@ -39,7 +52,10 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
+        transition: 0.2s ease-in-out;
+
         &:hover {
+            transition: 0.2s ease-in-out;
             background-color: #FF685B;
             color: white;
         }
