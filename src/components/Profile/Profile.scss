@@ -1,0 +1,73 @@
+.profile {
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 80px;
+    
+        letter-spacing: 0.2px;
+    
+        color: #252B42;
+        margin-top: 141px;
+        margin-bottom: 35px;
+    }
+
+    &__exit {
+        margin-left: 15px;
+        margin-bottom: 96.5px;
+        margin-right: 10px;
+        width: 228px;
+        text-align: center;
+        border: 1px solid $Orange;
+        color: #fff;
+        padding: 15px 40px;
+        cursor: pointer;
+        border: none;
+
+        background: $Orange;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            transition: 0.2s ease-in-out;
+            background-color: #fff;
+            border: 1px solid $Orange;
+            color: $Orange;
+        }
+    }
+    &__contacts {
+        margin-bottom: 96.5px;
+        width: 250px;
+        color: $Orange;
+        padding: 15px 40px;
+        cursor: pointer;
+
+        background: transparent;
+        border: 2px solid $Orange;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            transition: 0.2s ease-in-out;
+            background-color: $Orange;
+            color: white;
+        }
+    }
+}

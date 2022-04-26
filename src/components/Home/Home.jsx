@@ -3,10 +3,10 @@ import online from '../../assets/images/cards/online.svg';
 import emergency from '../../assets/images/cards/emergency.svg';
 import rack from '../../assets/images/cards/rack.svg';
 
-const Content = () => {
+const Home = () => {
     return <div className="container">
         <div className="row">
-            <span className="content__title col-md-8 col-sm-1">Место для получения медицинской помощи</span>
+            <span className="content__title col-md-8 col-sm-12">Место для получения медицинской помощи</span>
         </div>
         <div className="row">
             <button className="content__login">Войти</button>
@@ -38,6 +38,6 @@ const Content = () => {
                     <span className="card__text">Рыба текст</span>
                 </div>
         </div>
-</div>
+        </div>
 }
-export default Content;
+export default Home;

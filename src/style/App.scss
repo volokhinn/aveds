@@ -1,4 +1,113 @@
 @import './layout/variables.scss';
 @import './layout/fonts.scss';
 @import '../components/Header/Header.scss';
-@import '../components/Content/Content.scss';
+@import '../components/Home/Home.scss';
+@import '../components/Profile/Profile.scss';
+@import '../components/Contacts/Contacts.scss';
+
+@media (max-width: 400px){
+    .container {
+        margin: 55px 10px 35px 10px;
+    }
+    .content__title, .profile__title, .contacts__title {
+        font-size: 28px;
+        line-height: 39px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header {
+        justify-content: space-around;
+        margin: 20px auto;
+        &__logo {
+            margin-right: 110px;
+        }
+    }
+    
+    .header__contacts {
+        margin-right: 10px;
+    }
+
+    .header__login, .header__exit {
+        width: 106px;
+        padding: 6px 20px;
+        text-align: center;
+    }
+
+    .content__card {
+        margin: 0px 24px 30px 24px;
+    }
+
+    .content__login, .profile__exit {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    .content__contacts, .profile__contacts{
+        margin-bottom: 30px;
+    }
+    
+    .profile {
+        &__contacts, &__exit {
+            font-size: 10px;
+            padding: 6px 15px;
+            width: 185px;
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        margin: 55px 10px 35px 10px;
+    }
+    .content__title, .profile__title, .contacts__title {
+        font-size: 20px;
+        line-height: 39px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header {
+        justify-content: space-around;
+        margin: 10px auto;
+        &__logo {
+            margin-right: 60px;
+        }
+    }
+    
+    .header__contacts {
+        margin-right: 10px;
+    }
+
+    .header__login, .header__exit {
+        width: 86px;
+        padding: 6px 10px;
+        text-align: center;
+    }
+
+    .content__card {
+        margin: 0px 3px 30px 3px;
+    }
+
+    .content__login, .profile__exit {
+        padding: 10px 10px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    .content__contacts, .profile__contacts{
+        width: 140px;
+        padding: 10px 10px;
+        margin-bottom: 30px;
+    }
+    
+    .profile {
+        &__contacts, &__exit {
+            font-size: 10px;
+            padding: 6px 15px;
+            width: 185px;
+        }
+    }
+}
