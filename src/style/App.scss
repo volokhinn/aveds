@@ -4,6 +4,160 @@
 @import '../components/Home/Home.scss';
 @import '../components/Profile/Profile.scss';
 @import '../components/Contacts/Contacts.scss';
+@import '../components/Modal/Modal.scss';
+
+@media (max-width: 767px){
+    .container {
+        margin: 55px 70px 35px 70px;
+    }
+    .content__title, .profile__title, .contacts__title {
+        font-size: 44px;
+        line-height: 39px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header {
+        justify-content: space-between;
+        margin: 20px 60px;
+    }
+
+    .header__login, .header__exit {
+        width: 106px;
+        padding: 6px 20px;
+        text-align: center;
+    }
+
+    .header__contacts {
+        
+    }
+
+    .content__card {
+        margin-bottom: 30px;
+    }
+
+    .content__login, .profile__exit {
+        margin-left: 10px;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+
+    .content__contacts, .profile__contacts{
+        margin-bottom: 30px;
+    }
+    
+    .profile {
+        &__contacts, &__exit {
+            font-size: 10px;
+            padding: 6px 15px;
+            width: 185px;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .container {
+        margin: 55px 10px 35px 10px;
+    }
+    .content__title, .profile__title, .contacts__title {
+        font-size: 44px;
+        line-height: 39px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header {
+        justify-content: space-around;
+        margin: 20px auto;
+        &__logo {
+            margin-right: 110px;
+        }
+    }
+    
+    .header__contacts {
+        margin-right: 60px;
+    }
+
+    .header__login, .header__exit {
+        width: 106px;
+        padding: 6px 20px;
+        text-align: center;
+    }
+
+    .content__card {
+        margin: 0px 24px 30px 110px;
+    }
+
+    .content__login, .profile__exit {
+        margin-left: 10px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    .content__contacts, .profile__contacts{
+        margin-bottom: 30px;
+    }
+    
+    .profile {
+        &__contacts, &__exit {
+            font-size: 10px;
+            padding: 6px 15px;
+            width: 185px;
+        }
+    }
+}
+
+@media (max-width: 513px){
+    .container {
+        margin: 55px 10px 35px 10px;
+    }
+    .content__title, .profile__title, .contacts__title {
+        font-size: 38px;
+        line-height: 39px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header {
+        justify-content: space-around;
+        margin: 20px auto;
+        &__logo {
+            margin-right: 110px;
+        }
+    }
+    
+    .header__contacts {
+        margin-right: 30px;
+    }
+
+    .header__login, .header__exit {
+        width: 106px;
+        padding: 6px 20px;
+        text-align: center;
+    }
+
+    .content__card {
+        margin: 0px 24px 30px 72px;
+    }
+
+    .content__login, .profile__exit {
+        margin-left: 10px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+    .content__contacts, .profile__contacts{
+        margin-bottom: 30px;
+    }
+    
+    .profile {
+        &__contacts, &__exit {
+            font-size: 10px;
+            padding: 6px 15px;
+            width: 185px;
+        }
+    }
+}
 
 @media (max-width: 400px){
     .container {

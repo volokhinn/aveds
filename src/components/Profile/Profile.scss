@@ -38,6 +38,7 @@
         transition: 0.2s ease-in-out;
 
         &:hover {
+            text-align: center;
             transition: 0.2s ease-in-out;
             background-color: #fff;
             border: 1px solid $Orange;

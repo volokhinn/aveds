@@ -1,15 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Modal from '../Modal/Modal';
 import online from '../../assets/images/cards/online.svg';
 import emergency from '../../assets/images/cards/emergency.svg';
 import rack from '../../assets/images/cards/rack.svg';
 
 const Home = () => {
+    const [modalActive, setModalActive] = useState(false);
     return <div className="container">
         <div className="row">
             <span className="content__title col-md-8 col-sm-12">Место для получения медицинской помощи</span>
         </div>
         <div className="row">
-            <button className="content__login">Войти</button>
+            <button className="content__login" onClick={() => setModalActive(true)}>Войти</button>
             <button className="content__contacts">Контакты</button>
         </div>
         <div className="row">
@@ -38,6 +40,7 @@ const Home = () => {
                     <span className="card__text">Рыба текст</span>
                 </div>
         </div>
+        <Modal active={modalActive} setActive={setModalActive}/>
         </div>
 }
 export default Home;
