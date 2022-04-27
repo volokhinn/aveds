@@ -9,7 +9,7 @@
 
 @media (max-width: 767px){
     .container {
-        margin: 55px 70px 35px 70px;
+        margin: 55px 40px 35px 70px;
     }
     .content__title, .profile__title, .contacts__title {
         font-size: 44px;
@@ -19,6 +19,7 @@
     }
 
     .header {
+        display: flex;
         justify-content: space-between;
         margin: 20px 60px;
     }
@@ -30,7 +31,7 @@
     }
 
     .header__contacts {
-        
+        margin-right: 30px;
     }
 
     .content__card {
@@ -52,6 +53,12 @@
             font-size: 10px;
             padding: 6px 15px;
             width: 185px;
+        }
+    }
+
+    .signIn {
+        &__content {
+            width: 70%;
         }
     }
 }
@@ -138,7 +145,7 @@
     }
 
     .content__card {
-        margin: 0px 24px 30px 72px;
+        margin: 0px 24px 30px 10px;
     }
 
     .content__login, .profile__exit {
@@ -210,6 +217,12 @@
             width: 185px;
         }
     }
+
+    .signIn {
+        &__title {
+            font-size: 35px;
+        }
+    }
 }
 
 @media (max-width: 300px) {
@@ -263,6 +276,12 @@
             font-size: 10px;
             padding: 6px 15px;
             width: 185px;
+        }
+    }
+
+    .signIn {
+        &__title {
+            font-size: 25px;
         }
     }
 }

@@ -53,7 +53,7 @@
         display: inline;
         margin-bottom: 96.5px;
         width: 155px;
-        color: #FF685B;
+        color: $Orange;
         padding: 15px 40px;
         cursor: pointer;
 
@@ -72,7 +72,7 @@
 
         &:hover {
             transition: 0.2s ease-in-out;
-            background-color: #FF685B;
+            background-color: $Orange;
             color: white;
         }
     }
