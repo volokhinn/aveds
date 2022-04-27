@@ -8,6 +8,7 @@ const Modal = ({active, setActive, children}) => {
                 <input type="text" className="signIn__login" placeholder='Введите логин' />
                 <input type="password" className="signIn__pass" placeholder='Введите пароль'/>
             </div>
+            <button className="signIn__button">Войти</button>
             {children}
         </div>
     </div>

@@ -16,7 +16,7 @@
         padding: 20px;
         background-repeat: 12px;
         background-color: #fff;
-        width: 50vw;
+        width: 25vw;
     }
 
     &__title {
@@ -37,10 +37,36 @@
         margin: 20px 0px;
         padding: 0px 20px;
     }
+
     &__pass {
         width: 250px;
         height: 40px;
         padding: 0px 20px;
+    }
+
+    &__button {
+        margin-left: 365px;
+        color: #FF685B;
+        padding: 8px 60px;
+        cursor: pointer;
+
+        background: transparent;
+        border: 2px solid $Orange;
+        box-sizing: border-box;
+        border-radius: 7px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            transition: 0.2s ease-in-out;
+            background-color: #FF685B;
+            color: white;
+        }
     }
 }
 
