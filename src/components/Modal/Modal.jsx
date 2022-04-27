@@ -1,4 +1,5 @@
 import React from 'react';
+import validate from '../../validate.js'
 
 const Modal = ({active, setActive, children}) => {
     return <div className={active ? "signIn active" : "signIn"} onClick={() => setActive(false)}>
@@ -10,7 +11,7 @@ const Modal = ({active, setActive, children}) => {
                 <span className="input__title">Введите пароль</span>
                 <input type="password" className="signIn__pass" placeholder='Пароль'/>
             </div>
-            <button className="signIn__button">Войти</button>
+            <button className="signIn__button" onClick={() => validate()}>Войти</button>
             {children}
         </div>
     </div>
