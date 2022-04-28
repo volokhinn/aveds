@@ -2,7 +2,9 @@ async function validate() {
     let res = await fetch('./users.json');
     res = await res.json().then((data) => data);
 
-    console.log(res.name);
+    if (res.find((user) => user.name === 'Сергей')) {
+        console.log("123");
+    }
 }
 
 export default validate;

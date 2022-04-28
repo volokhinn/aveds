@@ -7,13 +7,18 @@ import Card from '../Cards/Card';
 import {Link} from 'react-router-dom';
 
 const Home = () => {
+    const isAuth = localStorage.getItem("isAuth") || 'false';
     const [modalActive, setModalActive] = useState(false);
     return <div className="container">
         <div className="row">
             <span className="content__title col-md-8 col-sm-12">Место для получения медицинской помощи</span>
         </div>
         <div className="row">
-            <button className="content__login" onClick={() => setModalActive(true)}>Войти</button>
+        {
+            isAuth === 'true' ?
+                '' :
+                <button className="content__login" onClick={() => setModalActive(true)}>Войти</button>
+        }
             <Link to="/contacts" className="content__contacts">Контакты</Link>
         </div>
         <div className="row">

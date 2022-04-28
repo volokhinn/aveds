@@ -17,7 +17,7 @@
         margin-left: 15px;
         margin-bottom: 96.5px;
         margin-right: 10px;
-        width: 228px;
+        width: 230px;
         text-align: center;
         border: 1px solid $Orange;
         color: #fff;
@@ -38,6 +38,7 @@
         transition: 0.2s ease-in-out;
 
         &:hover {
+            width: 230px;
             text-align: center;
             transition: 0.2s ease-in-out;
             background-color: #fff;
@@ -51,6 +52,7 @@
         color: $Orange;
         padding: 15px 40px;
         cursor: pointer;
+        text-decoration: none;
 
         background: transparent;
         border: 2px solid $Orange;
